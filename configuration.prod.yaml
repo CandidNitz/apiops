@@ -5,7 +5,7 @@ namedValues:
       displayName: plainvalue
       value: "https://www.PROD.search2.com"
   - name: secret
-      properties:
+    properties:
       displayName: secret
       value: "PRODSecret"
 loggers:
