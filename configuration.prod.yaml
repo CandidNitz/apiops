@@ -23,6 +23,6 @@ diagnostics:
 backends:
   - name: demopythonfunctionapp
     properties:
-      url: "https://helloworldfromprodfuncapp.azurewebsites.net/api"
+      url: "https://demopythonfunctionapp-prod.azurewebsites.net/api"
       resourceid: "https://management.azure.com/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/demo-reg-apim/providers/Microsoft.Web/sites/demopythonfunctionapp-PROD"
 apis:
