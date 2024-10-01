@@ -8,6 +8,10 @@ namedValues:
     properties:
       displayName: secret
       value: "PRODSecret"
+  - name: demopythonfunctionapp-key
+    properties:
+      displayName: demopythonfunctionapp-key
+      value: "kAerZnJUXGeXXoIDiBc97NlnQhCIXmbwXm9fvK2ITr36AzFuVAfUpg=="
   - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
@@ -17,4 +21,8 @@ namedValues:
 loggers:
 diagnostics:
 backends:
+  - name: demopythonfunctionapp
+    properties:
+      url: "https://helloworldfromprodfuncapp.azurewebsites.net/api"
+      resourceid: "https://management.azure.com/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/demo-reg-apim/providers/Microsoft.Web/sites/demopythonfunctionapp-PROD"
 apis:
