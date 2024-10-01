@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "loggerType": "applicationInsights",
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials-AppInsights}}"
+    },
+    "description": "demo dev appinsight",
+    "isBuffered": true,
+    "resourceId": "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/dev-rg/providers/microsoft.insights/components/demo-appinsight"
+  }
+}
