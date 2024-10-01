@@ -12,6 +12,10 @@ namedValues:
     properties:
       displayName: demopythonfunctionapp-key
       value: "kAerZnJUXGeXXoIDiBc97NlnQhCIXmbwXm9fvK2ITr36AzFuVAfUpg=="
+  - name: Logger-Credentials-AppInsights
+    properties:
+      displayName: Logger-Credentials-AppInsights
+      value: "32b93378-acb9-4877-921b-d1ddd38f96ff"
   - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
@@ -19,6 +23,14 @@ namedValues:
         identityClientId: 34f43e2a-fddb-4861-a262-a809adbb690d
         secretIdentifier: https://demo-kv-nitzorg.vault.azure.net/secrets/kv-secret-demo-PROD/b0ff49ddf1c3428f9eb1ab31a4861790
 loggers:
+    - name: demo-appinsight
+      properties:
+        loggerType: applicationInsights
+        description: prod application insights
+        resourceId: "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/prod-rg/providers/microsoft.insights/components/demo-appinsight-PROD"
+        credentials:
+          instrumentationKey: "{{Logger-Credentials-AppInsights}}"
+        isBuffered: true
 diagnostics:
 backends:
   - name: demopythonfunctionapp
