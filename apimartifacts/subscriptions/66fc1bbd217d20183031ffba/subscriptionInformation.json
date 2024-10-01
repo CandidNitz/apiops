@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "scope": "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/dev-rg/providers/Microsoft.ApiManagement/service/dev-apim-cicd/products/producta",
+    "allowTracing": false,
+    "ownerId": "/subscriptions/873df924-afb6-443d-9e82-2be75cd78756/resourceGroups/dev-rg/providers/Microsoft.ApiManagement/service/dev-apim-cicd/users/1",
+    "state": "active"
+  }
+}
