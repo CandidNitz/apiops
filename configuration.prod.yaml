@@ -12,7 +12,7 @@ namedValues:
     properties:
       displayName: demopythonfunctionapp-key
       value: "kAerZnJUXGeXXoIDiBc97NlnQhCIXmbwXm9fvK2ITr36AzFuVAfUpg=="
-  - name: Logger-Credentials-AppInsights
+  - name: 66fc56b8217d201830320017
     properties:
       displayName: Logger-Credentials-AppInsights
       value: "32b93378-acb9-4877-921b-d1ddd38f96ff"
