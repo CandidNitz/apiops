@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "displayName": "demopythonfunctionapp-key",
+    "secret": true,
+    "tags": [
+      "key",
+      "function",
+      "auto"
+    ]
+  }
+}
