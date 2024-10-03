@@ -10,6 +10,8 @@ on:
         options:
         - Extract All APIs
         - configuration.extractor.yaml
+        - configguration.extractor.TeamA.yaml
+        - configguration.extractor.TeamB.yaml
       API_SPECIFICATION_FORMAT:
         description: 'API Specification Format'     
         required: true
